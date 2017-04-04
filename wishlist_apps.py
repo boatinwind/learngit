@@ -17,11 +17,11 @@ products={\
         "day one 2":"https://itunes.apple.com/cn/app/day-one/id1055511498?mt=12",\
 }
 
+# This is the reg pattern of the price
 base_Pri_ptn=re.compile('\"basePrice\":(\d*),')
 vol_Pri_ptn=re.compile('\"volumePrice\":(\d*),')
 
 # get the price of each products
-
 def get_price(the_url):
     req=urllib2.urlopen(the_url)
     html_src=req.read()
