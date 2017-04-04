@@ -1,8 +1,6 @@
 # author: fengzhou
 #!/usr/bin/python
 
-# 1111
-
 # -*- coding: UTF-8 -*-
 #__author__="fengzhou"
 
